@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
+  "scripts": {    
     "start":"node ./api/index.js",
+    "build":"start +",    
      "dev": "nodemon api/index.js"
   },
   "keywords": [],
