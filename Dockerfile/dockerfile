@@ -1,0 +1,6 @@
+FROM node:18.18.1
+
+WORKDIR /usr/src/app
+COPY . .
+EXPOSE 3020
+CMD ["npm","run","start"]
